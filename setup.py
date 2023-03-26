@@ -51,7 +51,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     package_data={
-        'djangocms_w3_style': ['templates/*']
+        'djangocms_w3_style': ['templates/djangocms_w3_style/default/*']
     },
     zip_safe=False,
     install_requires=REQUIREMENTS,
