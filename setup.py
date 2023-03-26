@@ -50,6 +50,9 @@ setup(
     description='Adds w3 css style plugin to django CMS',
     packages=find_packages(),
     include_package_data=True,
+    package_data={
+        'djangocms_w3_style': ['templates/*']
+    },
     zip_safe=False,
     install_requires=REQUIREMENTS,
     classifiers=CLASSIFIERS,
