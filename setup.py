@@ -48,7 +48,6 @@ setup(
     url='https://github.com/compugit/djangocms_w3_style',
     license='BSD-3-Clause',
     description='Adds w3 css style plugin to django CMS',
-    long_description=open('README.rst').read(),
     packages=find_packages(),
     include_package_data=True,
     zip_safe=False,
